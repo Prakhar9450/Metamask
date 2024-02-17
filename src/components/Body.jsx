@@ -82,8 +82,8 @@ export function Body() {
               choose what to <br /> share and what to keep private.
             </h3>
           </div>
-          <div className="px-16">
-            <img src={bodyIcon4} width={425} />
+          <div>
+            <img src={bodyIcon4} width={500} />
           </div>
         </div>
       </div>
