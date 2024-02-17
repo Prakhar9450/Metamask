@@ -1,5 +1,6 @@
 import bodyIcon from "../assets/bodyIcon.jpg";
 import bodyIcon2 from "../assets/bodyIcon2.svg";
+import bodyIcon3 from "../assets/bodyIcon3.svg";
 
 export function Body() {
   return (
@@ -20,7 +21,7 @@ export function Body() {
             </button>
           </div>
           <div>
-            <img src={bodyIcon} width={500}></img>
+            <img src={bodyIcon} width={500} />
           </div>
         </div>
         <div className="grid place-items-center text-xs">
@@ -53,7 +54,22 @@ export function Body() {
             </h3>
           </div>
           <div>
-            <img src={bodyIcon2} width={425}></img>
+            <img src={bodyIcon2} width={425} />
+          </div>
+        </div>
+        <div className="flex justify-between items-center mx-4 mt-20 mb-8">
+          <div className="px-16">
+            <img src={bodyIcon3} width={425} />
+          </div>
+          <div className="my-20 mr-20">
+            <h2 className="text-2xl font-meta-bold py-5">
+              Explore blockchain apps
+            </h2>
+            <h3>
+              MetaMask provides the simplest yet most secure way <br />
+              to connect to blockchain-based applications. You <br /> are always
+              in control when interacting on the new <br /> decentralized web.
+            </h3>
           </div>
         </div>
       </div>
