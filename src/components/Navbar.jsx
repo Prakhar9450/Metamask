@@ -1,8 +1,10 @@
+import logo from "../assets/logo.jpg";
+
 export function Navbar() {
   return (
     <div className="flex justify-center mx-11 items-center ">
       <div className="mx-14">
-        <img src="src\assets\logo.jpg" width={200}></img>
+        <img src={logo} width={200}></img>
       </div>
       <div className="flex items-center">
         <div className="flex">

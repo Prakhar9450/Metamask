@@ -1,3 +1,5 @@
+import bodyIcon from "../assets/bodyIcon.jpg";
+
 export function Body() {
   return (
     <div className="flex justify-center items-center mx-4 my-20">
@@ -16,7 +18,7 @@ export function Body() {
         </button>
       </div>
       <div>
-        <img src="src\assets\body-icon.jpg" width={500}></img>
+        <img src={bodyIcon} width={500}></img>
       </div>
     </div>
   );
