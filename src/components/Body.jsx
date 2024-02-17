@@ -1,6 +1,7 @@
 import bodyIcon from "../assets/bodyIcon.jpg";
 import bodyIcon2 from "../assets/bodyIcon2.svg";
 import bodyIcon3 from "../assets/bodyIcon3.svg";
+import bodyIcon4 from "../assets/bodyIcon4.svg";
 
 export function Body() {
   return (
@@ -70,6 +71,19 @@ export function Body() {
               to connect to blockchain-based applications. You <br /> are always
               in control when interacting on the new <br /> decentralized web.
             </h3>
+          </div>
+        </div>
+        <div className="flex justify-between items-center mx-4 mt-20 mb-8">
+          <div className="my-20 mr-20">
+            <h2 className="text-2xl font-meta-bold py-5">Own your data</h2>
+            <h3>
+              MetaMask generates passwords and keys on your <br /> device, so
+              only you have access to your accounts and <br /> data. You always
+              choose what to <br /> share and what to keep private.
+            </h3>
+          </div>
+          <div className="px-16">
+            <img src={bodyIcon4} width={425} />
           </div>
         </div>
       </div>
