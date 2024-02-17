@@ -2,7 +2,7 @@ import bodyIcon from "../assets/bodyIcon.jpg";
 
 export function Body() {
   return (
-    <div className="flex justify-center items-center mx-4 my-20">
+    <div className="flex justify-center items-center mx-4 mt-20 mb-8">
       <div className="my-20 mr-2">
         <h1 className="text-5xl font-meta-bold">
           Get started with<h1></h1> MetaMask Portfolio
