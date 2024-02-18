@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "meta-blue": "rgb(3, 125, 214)",
+        "meta-gray": "#121212",
       },
       fontSize: {
         "sm-2": "13.25px",

@@ -1,6 +1,6 @@
 export function Bluebar() {
   return (
-    <div className="bg-meta-blue flex justify-center items-center font-meta-bold p-2.5 underline text-sm-2">
+    <div className="bg-meta-blue flex justify-center items-center font-meta-bold p-2.5 underline text-sm-2 sticky top-0">
       <div className="">
         Discover MetaMask Portfolio today. Track and manage your web3 assets in
         one place!

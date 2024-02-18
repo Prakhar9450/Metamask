@@ -2,7 +2,7 @@ import logo from "../assets/logo.jpg";
 
 export function Navbar() {
   return (
-    <div className="flex justify-around mx-40 items-center ">
+    <div className="bg-meta-gray flex justify-around mx-40 items-center navbar sticky top-10">
       <div className="mx-5">
         <img src={logo} width={200}></img>
       </div>
