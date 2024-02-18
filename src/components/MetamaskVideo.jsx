@@ -4,7 +4,7 @@ export function MetamaskVideo() {
       <h2 className="text-2xl flex justify-center font-semibold m-10">
         What is MetaMask?
       </h2>
-      <div className="flex justify-center m-10">
+      <div className="flex justify-center m-12">
         <iframe
           width="992"
           height="560"
