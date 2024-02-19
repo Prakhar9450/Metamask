@@ -6,6 +6,7 @@ import { CookiePreferences } from "./components/CookiePreferences";
 import { MetamaskVideo } from "./components/MetamaskVideo";
 import { Applications } from "./components/Applications";
 import { Developers } from "./components/Developers";
+import { Swag } from "./components/Swag";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <MetamaskVideo />
       <Applications />
       <Developers />
+      <Swag />
       <CookiePreferences />
     </>
   );

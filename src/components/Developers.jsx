@@ -1,6 +1,6 @@
 export function Developers() {
   return (
-    <div className="bg-meta-gray-300 grid grid-cols-1 place-items-center p-10">
+    <div className="bg-meta-gray-400 grid grid-cols-1 place-items-center p-10">
       <h2 className="text-2xl font-semibold m-7">Developers</h2>
       <h4 className="text-sm">
         MetaMask is powered by a strong community from across the globe.
