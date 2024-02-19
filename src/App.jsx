@@ -5,6 +5,7 @@ import { Body } from "./components/Body";
 import { CookiePreferences } from "./components/CookiePreferences";
 import { MetamaskVideo } from "./components/MetamaskVideo";
 import { Applications } from "./components/Applications";
+import { Developers } from "./components/Developers";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Body />
       <MetamaskVideo />
       <Applications />
+      <Developers />
       <CookiePreferences />
     </>
   );

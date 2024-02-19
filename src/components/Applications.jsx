@@ -9,7 +9,7 @@ import uniswap from "../assets/apps/dapp-uniswap.webp";
 
 export function Applications() {
   return (
-    <div className="bg-meta-light-gray grid grid-cols-1 place-items-center p-14">
+    <div className="bg-meta-gray-600 grid grid-cols-1 place-items-center p-14">
       <h1 className="text-2xl font-semibold m-5">
         Your key to blockchain applications
       </h1>
