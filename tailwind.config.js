@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        "meta-blue": "rgb(3, 125, 214)",
+        "meta-blue": "#037dd6",
+        "meta-orange": "	#f6851b",
         "meta-gray": {
           200: "#6a737d",
           300: "#3c444b",
@@ -14,6 +15,7 @@ export default {
         },
       },
       fontSize: {
+        "meta-3xl": "33px",
         "sm-2": "13.25px",
         "base-2": "15px",
       },

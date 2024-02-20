@@ -60,7 +60,7 @@ export function Navbar() {
             </svg>
           </div>
           <div className="flex ml-10 mr-4">Learn</div>
-          <button className="bg-meta-blue rounded-3xl p-2 px-7">
+          <button className="bg-meta-blue rounded-full p-2 px-7">
             View Portfolio
           </button>
           <label class="inline-flex items-center cursor-pointer m-7">

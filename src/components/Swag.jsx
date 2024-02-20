@@ -10,7 +10,7 @@ export function Swag() {
         <div className="grid grid-cols-1 px-5 py-20">
           <h2 className="text-2xl font-semibold py-16">Shop MetaMask Swag</h2>
           <div>
-            <button className="rounded-3xl border-solid border-2 border-white px-9 py-3 hover:text-meta-blue hover:border-meta-blue">
+            <button className="rounded-full border-solid border-2 border-white px-10 py-4 hover:text-meta-blue hover:border-meta-blue">
               Shop Now
             </button>
           </div>

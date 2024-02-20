@@ -7,6 +7,7 @@ import { MetamaskVideo } from "./components/MetamaskVideo";
 import { Applications } from "./components/Applications";
 import { Developers } from "./components/Developers";
 import { Swag } from "./components/Swag";
+import { Newsletter } from "./components/Newsletter";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Applications />
       <Developers />
       <Swag />
+      <Newsletter />
       <CookiePreferences />
     </>
   );

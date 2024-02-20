@@ -17,7 +17,7 @@ export function Body() {
               With MetaMask installed, start enjoying the convenience of <br />
               tracking and managing your web3 everything, all in one place.
             </h3>
-            <button className="bg-meta-blue rounded-3xl p-3.5 px-7 ">
+            <button className="bg-meta-blue rounded-full py-4 px-5 ">
               View Metamask Portfolio
             </button>
           </div>
