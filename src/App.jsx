@@ -8,6 +8,7 @@ import { Applications } from "./components/Applications";
 import { Developers } from "./components/Developers";
 import { Swag } from "./components/Swag";
 import { Newsletter } from "./components/Newsletter";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Developers />
       <Swag />
       <Newsletter />
+      <Footer />
       <CookiePreferences />
     </>
   );
